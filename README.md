@@ -1,2 +1,3 @@
 # myproject
-this is test repo
+this bakery shop project
+done with html css sass bootstrap JS react
