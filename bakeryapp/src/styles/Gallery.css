@@ -1,0 +1,61 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.galleryOne{
+    background-image:url(/public/images/full-2-900x470.jpg);
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    h2{
+        font-size:36px;
+        color:#ffffffce;
+    }
+    p{
+        color: #ffffffce;
+        margin: 14px 134px 12px;
+    }
+}
+.galleryTwo{
+    /* .image {
+        position: relative;
+      } */
+      padding: 60px 66px;
+      
+      .image img {
+        transition: transform 1s ease;
+        
+      }
+      
+      .image:hover img {
+        transform: scale(1.05);
+      }
+      
+      .overlay {
+        
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); 
+        opacity: 0;
+        transition: opacity 0.5s ease;
+      }
+      
+      .image:hover .overlay {
+        opacity: 1;
+
+      }
+      .overlay:hover{
+        transform: scale(1.05);
+
+
+      }
+      
+      .overlay i {
+        color: white;
+        font-size: 2rem; 
+      }
+      
+}

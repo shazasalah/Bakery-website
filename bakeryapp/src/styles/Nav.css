@@ -1,0 +1,20 @@
+.nav-bg{
+    background-color: white;
+    
+}
+.nav-bg .nav-link {
+    color: black !important; 
+}
+
+
+nav{
+    /* color:white; */
+    .imgNav{
+        height: 48px;
+        width: 176.500px;
+        color:white;
+    }
+    li{
+        padding:0 15px;
+    }
+}

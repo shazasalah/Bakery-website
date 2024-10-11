@@ -1,0 +1,69 @@
+.contactOne{
+    background-image: url(/public/images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    color:white;
+    h2{
+        color:white;
+        font-size: 56px;
+
+    }
+    .link{
+        text-decoration: none;
+        color:white;
+        font-size: 15px;
+        margin: 0 0 15px;
+    }
+}
+.contactTwo{
+    padding: 80px 66px 45px;
+    .form{
+        margin: 0 0 35px;
+        h3{
+            color: #303030;
+            font-size: 28px;
+            margin:0 0 25px
+        }
+        .btnContact{
+            background-color: #8e7754;
+            color:white;
+            margin: 0 0 18px;
+        }
+        .btnContact:hover{
+            background-color: #333;
+            color: white;
+        }
+    
+    }
+    .contact{
+        li{
+            padding: 15px 0 15px ;
+            margin: 0 0 2px;
+            h3{
+                color: #303030;
+                font-size: 28px;
+                margin:0 0 25px
+            }
+            p{
+                color:#686868;
+            }
+    
+            .iContainer{
+                border-radius: 50%;
+                border:solid 1px #686868;
+                width: 40px;
+                height: 40px;
+                margin: 0 10px 0;
+                background-color: #8e7754;
+                i{
+                    color:white;
+                }
+                .linkC{
+                    text-decoration: none;
+                }
+            }
+        }
+    
+    }
+}

@@ -1,0 +1,136 @@
+.homeOne{
+    background-image: url(/public/images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    .textContainer{
+        .p1{
+            color:#ffffffeb;
+            font-size: 22px;
+            margin:0 0 5px;
+        }
+        h2{
+            color:#fff;
+            font-size: 76px;
+            margin:0 0 18px
+        }
+        .p2{
+            color: #ffffffeb;
+            font-size: 24px;
+            margin: 10px 0 20px;
+        }
+        .btnContaoner{
+            margin: 30px 0 0;
+            .oneBtn{
+                color: #fff;
+                background-color: #8e7754;
+                margin: 0 0 12px;
+                padding: 15px 28px;
+
+
+            }
+            .oneBtn:hover{
+                color:#222;
+                background-color: #fff;
+                
+            }
+            .oneClear{
+                background-color: transparent;
+                border: 1px #fff solid;
+            }
+
+        }
+
+    }
+
+
+}
+.homeTwo{
+    color:#686868;
+    padding: 90px 53px;
+.textContainer2{
+    padding: 20px 15px 0 15px;
+    h3{
+        color:#303030;
+        font-size: 25px;
+        margin: 0 0 25px;
+    }
+    p{
+        color:#686868;
+        font-size: 17px;
+        line-height: 35px;
+    }
+    li{
+        padding: 15px 0 15px ;
+        margin: 0 0 2px;
+        .iContainer{
+            border-radius: 50%;
+            border:solid 1px #686868;
+            width: 40px;
+            height: 40px;
+            margin: 0 10px 0;
+            i{
+                color:#8e7754;
+            }
+        }
+    }
+
+
+}
+
+
+}
+.bgThree{
+    background-color: #f8f8f8;
+}
+
+.homeThree{
+    padding: 90px 53px;
+    h3{
+        color:#303030;
+        margin: 0 0 25px;
+        font-size: 25px;
+    }
+    p{
+        color:#686868;
+        font-size: 17px;
+        margin: 0 0 20px;
+        line-height: 31px;
+    }
+
+}
+.homeFour{
+    padding: 90px 53px;
+    .headerFour{
+        margin: 10px 0 60px;
+
+        h3{
+            color:#303030;
+            font-size: 30px;
+
+    
+        }
+        .pFour{
+            color:#686868;
+            font-size: 17px;
+            margin: 17px 40px 0;
+        }
+    
+
+    }
+    .cards{
+        h4{
+            color:#303030;
+            font-size: 22px;
+            padding: 20px 0;
+    
+        }
+
+    }
+
+
+}
+
+/* .homeOne{
+
+} */

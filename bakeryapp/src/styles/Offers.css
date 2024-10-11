@@ -1,0 +1,43 @@
+.offerOne{
+    background-image: url(/public/images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+
+
+
+}
+.offerTwo{
+    padding: 80px 64px 30px;
+    .cards{
+        padding: 0 15px 30px;
+        .headerOffer{
+            margin: 0 0 14px;
+            padding:  0 0 14px;
+            border-bottom: solid 1px #88888814;
+
+            h5{
+                color:#303030;
+                font-size:18px;
+        
+            }
+            .price{
+                color: #888;
+            }
+    
+    
+
+        }
+        p{
+            font-size: 17px;
+            color:#686868;
+            text-align: justify;
+    
+    
+        }
+    
+    
+    }
+    
+
+}

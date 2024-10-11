@@ -1,0 +1,93 @@
+/* AboutFour.css */
+.bgfour{
+    background-color: #8e7754;
+
+}
+.aboutFour {
+    /* box-sizing: border-box; */
+    /* display: grid; */
+    /* place-items: center; */
+    /* height: 50vh; */
+    /* margin: 0; */
+    /* padding: 20px; */
+    color: #fff;
+    padding: 85px 0 50px;
+    i{
+        margin: 0 0 30px;
+        font-size: 40px;
+    }
+    .counterFour,.counterFour2, .counterFour3, .counterFour4{
+        font-size: 52px;
+        margin: 0 0 20px;
+    }
+    h4{
+        font-size: 20px;
+        color:#ffffffcc;
+    }
+}
+  
+  @property --num {
+    syntax: '<integer>';
+    inherits: true;
+    initial-value: 0;
+  }
+
+  @property --num2 {
+    syntax: '<integer>';
+    inherits: true;
+    initial-value: 0;
+  }
+
+  @property --num3 {
+    syntax: '<integer>';
+    inherits: true;
+    initial-value: 0;
+  }
+
+  @property --num4 {
+    syntax: '<integer>';
+    inherits: true;
+    initial-value: 0;
+  }
+
+  .counterFour::before {
+    counter-reset: my-counter var(--num);
+    content: counter(my-counter);
+    animation: count 10s ease-in-out forwards;
+  }
+
+  .counterFour2::before {
+    counter-reset: my-counter var(--num2);
+    content: counter(my-counter);
+    animation: count2 10s ease-in-out forwards;
+  }
+
+  .counterFour3::before {
+    counter-reset: my-counter var(--num3);
+    content: counter(my-counter);
+    animation: count3 10s ease-in-out forwards;
+  }
+
+  .counterFour4::before {
+    counter-reset: my-counter var(--num4);
+    content: counter(my-counter);
+    animation: count4 10s ease-in-out forwards;
+  }
+
+  
+  @keyframes count {
+    to { --num: 1430; }
+  }
+  
+  @keyframes count2 {
+    to { --num2: 64; }
+  }
+
+  @keyframes count3 {
+    to { --num3: 960; }
+  }
+
+  @keyframes count4 {
+    to { --num4: 420; }
+  }
+
